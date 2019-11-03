@@ -1,7 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea1141f1-d98e-40ca-aaf7-8a7c91f20e67" name="Default Changelist" comment="" />
+    <list default="true" id="ea1141f1-d98e-40ca-aaf7-8a7c91f20e67" name="Default Changelist" comment="c">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/SiteWide/_Footer.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/SiteWide/_Header.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/SiteWide/_Section.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/SiteWide/_sw.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Structure/_Content.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Structure/_st.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base/_base.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base/_menus.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base/_normalize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base/font/_copy.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base/font/_font-face.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base/font/_font.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base/font/_headings.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base/font/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base/form/_control.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base/form/_form.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base/form/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base/form/_input.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base/form/_select.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base/form/_vars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base/mixin/_mixin.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base/variable/_colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base/variable/_columns.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base/variable/_structure.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base/variable/_typography.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base/variable/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/namespace/_DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/namespace/form/_form.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/namespace/home/_home.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/site.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/site.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,26 +45,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/base/font/_copy.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6" />
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+            <state relative-caret-position="225">
+              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/reset.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-149">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/css/styye.css" />
+        <option value="$PROJECT_DIR$/css/reset.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
@@ -57,10 +115,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -87,12 +149,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572436982135</updated>
-      <workItem from="1572436987230" duration="400000" />
+      <workItem from="1572436987230" duration="2849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="400000" />
+    <option name="totallyTimeSpent" value="2849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="913" height="812" extended-state="0" />
@@ -128,10 +190,20 @@
         <state relative-caret-position="-6" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-149">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" lean-forward="true" selection-start-column="4" selection-end-column="4" />
+        <state relative-caret-position="225">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
         </state>
       </provider>
     </entry>
