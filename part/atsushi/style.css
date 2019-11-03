@@ -1,0 +1,57 @@
+/*
+    lead
+================================*/
+.lead{
+    color:#333333;
+}
+
+/*
+    H1
+================================*/
+H1{
+font-family:"Hiragino Sans";
+src: local(HiraginoSans-W7);
+font-weight: 30px;
+line-height: 1.66;
+}
+
+/*
+    lead1
+================================*/
+.lead_image1{
+    float: left;
+}
+/*
+    lead_text_1
+================================*/
+p.lead_text_1{   
+    font-family:"Hiragino Sans";
+    src: local(HiraginoSans-W5);
+    font-weight: 16px;
+    line-height: 2.5;
+    }
+
+/*
+    lead2
+================================*/
+
+
+/*
+    lead_text_2
+================================*/
+.lead2_content{
+    clear: left;
+    float: left;
+}
+
+/*
+    lead_text_3
+================================*/
+
+p.lead_text_3{
+    font-family:"Hiragino Sans";
+    src: local(HiraginoSans-W5);
+    font-weight: 16px;
+    line-height: 2.5;
+    text-align:  center; 
+    }
