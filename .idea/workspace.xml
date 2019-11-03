@@ -3,39 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ea1141f1-d98e-40ca-aaf7-8a7c91f20e67" name="Default Changelist" comment="c">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/SiteWide/_Footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/SiteWide/_Header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/SiteWide/_Section.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/SiteWide/_sw.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Structure/_Content.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/Structure/_st.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base/_base.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base/_menus.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base/_normalize.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base/font/_copy.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base/font/_font-face.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base/font/_font.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base/font/_headings.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base/font/_typography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base/form/_control.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base/form/_form.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base/form/_forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base/form/_input.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base/form/_select.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base/form/_vars.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base/mixin/_mixin.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base/variable/_colors.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base/variable/_columns.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base/variable/_structure.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base/variable/_typography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/base/variable/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/namespace/_DS_Store" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/namespace/form/_form.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/namespace/home/_home.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/site.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/site.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/site.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state relative-caret-position="105">
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -58,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/css/reset.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-149">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -107,6 +74,11 @@
               <item name="givegive-lp" type="b2602c69:ProjectViewProjectNode" />
               <item name="givegive-lp" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="givegive-lp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="givegive-lp" type="462c0819:PsiDirectoryNode" />
+              <item name="part" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -114,6 +86,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -149,16 +122,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572436982135</updated>
-      <workItem from="1572436987230" duration="2849000" />
+      <workItem from="1572436987230" duration="3544000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2849000" />
+    <option name="totallyTimeSpent" value="3544000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="913" height="812" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24913892" />
@@ -196,14 +168,14 @@
     <entry file="file://$PROJECT_DIR$/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-149">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="105">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
     </entry>
