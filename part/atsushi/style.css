@@ -3,6 +3,30 @@
 ================================*/
 .lead{
     color:#333333;
+    
+}
+/*
+    lead_bg
+================================*/
+.lead_bg{
+    background-image: url("lead_bg@2x.png");
+    background-size: 100%;
+}
+/*
+    lead1_image_bgcolor
+================================*/
+.lead1_image_bgcolor{
+background-color: #C63D33;
+padding:5px 5px 5px 50px;
+max-height: 330px;
+}
+
+/*
+    lead1_image
+================================*/
+.lead1_image{
+    width: 490px; 
+    height: 320px;
 }
 
 /*
@@ -13,45 +37,86 @@ font-family:"Hiragino Sans";
 src: local(HiraginoSans-W7);
 font-weight: 30px;
 line-height: 1.66;
+font-size: 30px !important;
 }
 
 /*
-    lead1
+    lead1_containar
 ================================*/
-.lead_image1{
-    float: left;
+.lead1_containar{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*
+    lead1_contant
+================================*/
+.lead1_content{
+    margin:0 0 70px 0;
 }
 /*
-    lead_text_1
+    lead1_text
 ================================*/
-p.lead_text_1{   
+p.lead1_text{   
     font-family:"Hiragino Sans";
     src: local(HiraginoSans-W5);
     font-weight: 16px;
     line-height: 2.5;
+    font-size: 16px !important;
     }
 
 /*
-    lead2
+    lead2_containar
 ================================*/
-
-
-/*
-    lead_text_2
-================================*/
-.lead2_content{
-    clear: left;
-    float: left;
+.lead2_containar{
+    display: flex;
+    justify-content: space-around;
 }
+/*
+    lead2_contant
+================================*/
+/* .lead2_content{
+    margin:70px;
+} */
 
 /*
-    lead_text_3
+    lead2_text
 ================================*/
-
-p.lead_text_3{
+.lead2_text{
     font-family:"Hiragino Sans";
     src: local(HiraginoSans-W5);
     font-weight: 16px;
     line-height: 2.5;
-    text-align:  center; 
+    font-size: 16px !important;
+}
+
+/*
+    lead2_image_bgcolor
+================================*/
+.lead2_image_bgcolor{
+    background-color: #C63D33;
+    padding:5px 50px 5px 5px;
+    max-height: 330px;
+    }
+    
+
+/*
+    lead2_image
+================================*/
+.lead2_image{
+    width: 490px; 
+    height: 320px;
+}
+
+/*
+    lead3_text
+================================*/
+
+.lead3_text{
+    font-family:"Hiragino Sans";
+    src: local(HiraginoSans-W5);
+    font-weight: 16px;
+    line-height: 2.5;
+    font-size: 16px !important;
+    text-align:  center ; 
     }
