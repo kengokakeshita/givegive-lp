@@ -16,17 +16,21 @@
     lead1_image_bgcolor
 ================================*/
 .lead1_image_bgcolor{
+text-align: right;
 background-color: #C63D33;
+margin: 0 auto 0 0;
 padding:5px 5px 5px 50px;
-max-height: 330px;
+width: 683px; 
+height: 406px;
+max-height: 410px;
 }
 
 /*
     lead1_image
 ================================*/
 .lead1_image{
-    width: 490px; 
-    height: 320px;
+    width: 578px; 
+    height: 396px;
 }
 
 /*
@@ -35,7 +39,7 @@ max-height: 330px;
 H1{
 font-family:"Hiragino Sans";
 src: local(HiraginoSans-W7);
-font-weight: 30px;
+font-weight: 700;
 line-height: 1.66;
 font-size: 30px !important;
 }
@@ -52,7 +56,7 @@ font-size: 30px !important;
     lead1_contant
 ================================*/
 .lead1_content{
-    margin:0 0 70px 0;
+    margin:20px 110px 70px 0;
 }
 /*
     lead1_text
@@ -60,7 +64,7 @@ font-size: 30px !important;
 p.lead1_text{   
     font-family:"Hiragino Sans";
     src: local(HiraginoSans-W5);
-    font-weight: 16px;
+    font-weight: 500;
     line-height: 2.5;
     font-size: 16px !important;
     }
@@ -75,9 +79,9 @@ p.lead1_text{
 /*
     lead2_contant
 ================================*/
-/* .lead2_content{
-    margin:70px;
-} */
+.lead2_content{
+    margin:20px 0 70px 100px;
+}
 
 /*
     lead2_text
@@ -85,7 +89,7 @@ p.lead1_text{
 .lead2_text{
     font-family:"Hiragino Sans";
     src: local(HiraginoSans-W5);
-    font-weight: 16px;
+    font-weight: 500;
     line-height: 2.5;
     font-size: 16px !important;
 }
@@ -95,8 +99,11 @@ p.lead1_text{
 ================================*/
 .lead2_image_bgcolor{
     background-color: #C63D33;
+    margin: 0 0 0 auto;
     padding:5px 50px 5px 5px;
-    max-height: 330px;
+    width: 683px; 
+    height: 406px;
+    max-height: 410px;
     }
     
 
@@ -104,8 +111,8 @@ p.lead1_text{
     lead2_image
 ================================*/
 .lead2_image{
-    width: 490px; 
-    height: 320px;
+    width: 578px; 
+    height: 396px;
 }
 
 /*
@@ -115,7 +122,7 @@ p.lead1_text{
 .lead3_text{
     font-family:"Hiragino Sans";
     src: local(HiraginoSans-W5);
-    font-weight: 16px;
+    font-weight: 500;
     line-height: 2.5;
     font-size: 16px !important;
     text-align:  center ; 
