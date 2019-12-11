@@ -274,3 +274,56 @@ p.lead1_text{
     font-size: 16px !important;
     text-align:  center ;
 }
+
+/***********
+  igaken
+************/
+
+.club{
+    width: 100%;
+    min-width: 1200px;
+    margin: 220px auto 0;
+    background-image: url("../images/about/club/club-bg@2x.jpg");
+    background-size: 100%;
+}
+.club-container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+.club-list{
+    margin: 80px 0 0 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.club-item{
+    width: 280px;
+}
+.club-item:nth-of-type(n+5){
+    margin: 30px 0 0 0;
+}
+.club-card{
+    background-color: #fff;
+}
+.club-info{
+    padding: 25px;
+}
+.club-button{
+    margin: 36px 0 0 0;
+    text-align: center;
+}
+.club-btn{
+    width: 144px;
+    padding: 16px 40px;
+    border: 1px solid #C63D33;
+    background-color: #fff;
+    border-radius: 23px;
+    text-decoration: none;
+    color: #C63D33;
+}
+/***********
+  kakeshita
+************/
