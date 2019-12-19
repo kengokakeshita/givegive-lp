@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" type="text/css" href="./css/reset.css">
   <link rel="stylesheet" type="text/css" href="./css/style.css">
-  <script type="text/javascript" src="index.js"></script>
 </head>
 <body>
 <header>
@@ -72,6 +71,11 @@
     </p>
   </div>
 </section><!--lead-->
+<section class="logo">
+  <figure id="#logoArea">
+    <img class="logo_image" src="./images/about/logo/logo@2x.png" alt="">
+  </figure>
+</section>
 <section class="club">
   <div class="club-container">
     <header>
@@ -284,5 +288,41 @@
   </div>
 
 </section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="snowfall.jquery.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#logoArea').snowfall({
+            flakeCount :20, // 枚数
+            flakeIndex : 50, // z-index
+            maxSpeed : 3, // 最大速度
+            minSpeed : 0.6, // 最小速度
+            maxSize  : 26, // 最大サイズ
+            minSize  : 5, // 最小サイズ
+            image : [
+                'images/logo/square_01@2x.png',
+                'images/logo/square_02@2x.png',
+                'images/logo/square_03@2x.png',
+                'images/logo/square_04@2x.png',
+                'images/logo/square_05@2x.png',
+                'images/logo/square_06@2x.png',
+                'images/logo/square_07@2x.png',
+                'images/logo/triangle_01@2x.png',
+                'images/logo/triangle_02@2x.png',
+                'images/logo/triangle_03@2x.png',
+                'images/logo/triangle_04@2x.png',
+                'images/logo/triangle_05@2x.png',
+                'images/logo/triangle_06@2x.png',
+                'images/logo/triangle_07@2x.png',
+                'images/logo/triangle_08@2x.png',
+                'images/logo/triangle_09@2x.png',
+                'images/logo/triangle_10@2x.png',
+                'images/logo/triangle_11@2x.png',
+                'images/logo/triangle_12@2x.png',
+                'images/logo/triangle_13@2x.png'
+            ]
+        });
+    });
+</script>
 </body>
 </html>

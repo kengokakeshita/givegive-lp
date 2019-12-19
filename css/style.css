@@ -375,3 +375,24 @@ p.lead1_text{
 /***********
   kakeshita
 ************/
+
+.logo{
+    margin: 80px 0 0 0;
+}
+.logo figure{
+    max-width: 1383px;
+    width: 100%;
+    margin:0 auto;
+}
+.footer{
+    padding: 40px 0 80px;
+    background-color: #fff;
+}
+.button_top{
+    width: 24px;
+    display: block;
+    margin: 0 auto;
+}
+.button_top img{
+    width: 100%;
+}
