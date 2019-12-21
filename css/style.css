@@ -117,7 +117,17 @@ body {
     line-height: 1.66;
     font-size: 30px !important;
 }
-
+@media (max-width: 768px) { 
+    .lead_title{
+        
+        
+    }
+ }
+ @media (max-width: 576px) { 
+    .lead_title{
+        font-size: 29px !important;
+    }
+ }
 /*
     lead1_containar
 ================================*/
@@ -158,13 +168,25 @@ body {
 /*
     lead1_text
 ================================*/
-p.lead1_text{
+.lead1_text{
     font-family:"Hiragino Sans";
     src: local(HiraginoSans-W5);
     font-weight: 500;
     line-height: 2.5;
     font-size: 16px !important;
 }
+@media (max-width: 768px) { 
+    .lead1_text{
+        
+        font-size: 15px !important;
+    }
+ }
+ @media (max-width: 576px) { 
+    .lead1_text{
+        
+        font-size: 15px !important;
+    }
+ }
 
 /*
     lead2_containar
@@ -220,6 +242,19 @@ p.lead1_text{
     line-height: 2.5;
     font-size: 16px !important;
 }
+@media (max-width: 768px) { 
+    .lead2_text{
+        
+        font-size: 15px !important;
+    }
+ }
+ @media (max-width: 576px) { 
+    .lead2_text{
+        
+        font-size: 15px !important;
+    }
+ }
+
 
 /*
     lead2_image_bgcolor

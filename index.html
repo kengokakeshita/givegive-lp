@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" type="text/css" href="./css/reset.css">
   <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
 </head>
 <body>
 <header>
@@ -29,7 +30,14 @@
   <div class="lead_bg">
     <div class="lead1_containar">
       <div class="lead1_image_bgcolor">
-        <img class="lead1_image" src="./images/about/givegive_image01@2x.jpg" alt="">
+          <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img class="lead1_image" src="./images/about/givegive_image01@2x.jpg" alt=""></div>
+                <div class="swiper-slide"><img class="lead1_image" src="./images/about/givegive_image01@2x.jpg" alt=""></div>
+                <div class="swiper-slide"><img class="lead1_image" src="./images/about/givegive_image01@2x.jpg" alt=""></div>
+              </div>
+              <div class="swiper-pagination" style="text-align:left"></div>
+            </div>
       </div>
       <div class="lead1_content">
         <H1 class="lead_title">
@@ -62,7 +70,14 @@
         </p>
       </div>
       <div class="lead2_image_bgcolor">
-        <img class="lead2_image" src="./images/about/givegive_image02@2x.jpg" alt="">
+          <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img class="lead2_image" src="./images/about/givegive_image02@2x.jpg" alt=""></div>
+                <div class="swiper-slide"><img class="lead2_image" src="./images/about/givegive_image02@2x.jpg" alt=""></div>
+                <div class="swiper-slide"><img class="lead2_image" src="./images/about/givegive_image02@2x.jpg" alt=""></div>
+              </div>
+              <div class="swiper-pagination" style="text-align:right"></div>
+            </div>
       </div>
     </div>
     <p class="lead3_text">
@@ -324,5 +339,7 @@
         });
     });
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+<script src="./part/atsushi/index.js"></script>
 </body>
 </html>
