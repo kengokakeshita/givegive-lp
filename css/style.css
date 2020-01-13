@@ -332,6 +332,18 @@ body {
     text-align:  center ;
 }
 
+@media (max-width: 768px) { 
+    .logo_image{
+        width: 100%;
+        order: 1;
+    }
+}
+ @media (max-width: 576px) { 
+    .logo_image{
+        order: 1;  
+    }
+ }
+
 /***********
   igaken
 ************/
@@ -343,6 +355,17 @@ body {
     background-image: url("../images/about/club/club-bg@2x.jpg");
     background-size: 100%;
 }
+
+@media (max-width: 768px) { 
+    .club{
+        min-width: 100%;
+    }
+}
+ @media (max-width: 576px) { 
+    .club{
+        min-width: 100%;
+    }
+ }
 
 .club h2{
     color: #fff;
@@ -367,12 +390,41 @@ body {
     margin: 0 auto;
     padding: 60px 0;
 }
+@media (max-width: 768px) { 
+    .club-container{
+        max-width: 768px;
+        width: 90%;
+        margin: 0;
+        order: 1;
+    }
+}
+ @media (max-width: 576px) { 
+    .club-container{
+        max-width: 576px;
+        width: 90%;
+        margin: 0 auto;
+        order: 1;  
+    }
+ }
+
 .club-list{
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+@media (max-width: 768px) { 
+    .club-list{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+ @media (max-width: 576px) { 
+    .club-list{
+        width: 80%;
+        margin: 0 auto;
+    }
+ }
 .club-item{
     width: 280px;
 }
