@@ -7,6 +7,8 @@ body {
     margin: 0;
     padding: 0;
     z-index: 1;
+    font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", 
+    "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
 .header{
@@ -79,7 +81,7 @@ body {
     lead
 ================================*/
 .lead{
-    margin: 140px 0 0 0;
+    margin: 310px 0 0 0;
     color:#333333;
 
 }
@@ -175,7 +177,7 @@ body {
     lead1_contant
 ================================*/
 .lead1_content{
-    margin:20px 50px 70px 0;
+    margin:20px 98px 70px 0;
 }
 @media (max-width: 768px) { 
     .lead1_content{
@@ -239,7 +241,7 @@ body {
     lead2_contant
 ================================*/
 .lead2_content{
-    margin:20px 0 70px 50px;
+    margin:20px 0 70px 98px;
 }
 @media (max-width: 768px) { 
     .lead2_content{
@@ -332,6 +334,7 @@ body {
     line-height: 2.5;
     font-size: 16px !important;
     text-align:  center ;
+    margin: 80px 0 0 0;
 }
 
 @media (max-width: 768px) { 
@@ -435,6 +438,12 @@ body {
 }
 .club-card{
     background-color: #fff;
+    border-color:#FFFFFF;
+    border-width: 2px;
+    border-style: solid;
+}
+.club-photo{
+    width:100%;
 }
 .club-info{
     padding: 25px;
@@ -462,7 +471,7 @@ body {
     padding: 16px 40px;
     border: 1px solid #C63D33;
     background-color: #fff;
-    border-radius: 25px;
+    border-radius: 26px;
     text-decoration: none;
     color: #C63D33;
 }
