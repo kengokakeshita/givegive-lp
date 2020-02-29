@@ -1,15 +1,28 @@
-/***********
-  matsujun
-************/
+/*
+    common
+================================*/
 
-
-body {
-    margin: 0;
-    padding: 0;
-    z-index: 1;
-    font-family: "Hiragino Sans W3", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", 
-    "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+.pc_only {
+    display: block;
 }
+.sp_only {
+    display: none;
+}
+
+@media (max-width: 576px) {
+    .pc_only {
+        display: none;
+    }
+    .sp_only {
+        display: block;
+    }
+}
+
+
+
+/*
+    main_visual
+================================*/
 
 .header{
     position: relative;
@@ -26,6 +39,11 @@ body {
     z-index: 99;
 }
 
+@media (max-width: 576px) {
+    .main_visual{
+        background-image: url("../images/about/main_visual_sp@2x.png");
+    }
+}
 .main_visual::after {
     display: block;
     content: "";
@@ -73,28 +91,21 @@ body {
     font-weight: bold;
 }
 
-/***********
-  atsushi
-************/
-
 /*
     lead
 ================================*/
+
 .lead{
     margin: 310px 0 0 0;
     color:#333333;
 
 }
-/*
-    lead_bg
-================================*/
+
 .lead_bg{
     background-image: url("../images/about/lead_bg@2x.png");
     background-size: 100%;
 }
-/*
-    lead1_image_bgcolor
-================================*/
+
 .lead1_image_bgcolor{
     text-align: right;
     background-color: #C63D33;
@@ -109,15 +120,12 @@ body {
         
     }
 }
- @media (max-width: 576px) { 
+@media (max-width: 576px) {
     .lead1_image_bgcolor{
-      
-    }
- }
 
-/*
-    lead1_image
-================================*/
+    }
+}
+
 .lead1_image{
     max-width: 578px;
 }
@@ -133,9 +141,6 @@ body {
     }
  }
 
-/*
-    H1
-================================*/
 .lead_title{
     font-family:"Hiragino Sans";
     src: local(HiraginoSans-W7);
@@ -154,9 +159,7 @@ body {
         font-size: 29px !important;
     }
  }
-/*
-    lead1_containar
-================================*/
+
 .lead1_containar{
     display: flex;
     justify-content: space-around;
@@ -173,9 +176,7 @@ body {
         
     }
  }
-/*
-    lead1_contant
-================================*/
+
 .lead1_content{
     margin:20px 98px 70px 0;
 }
@@ -191,9 +192,7 @@ body {
         margin: 20px 0px 70px 45px;
     }
  }
-/*
-    lead1_text
-================================*/
+
 .lead1_text{
     font-family:"Hiragino Sans";
     src: local(HiraginoSans-W5);
@@ -214,9 +213,6 @@ body {
     }
  }
 
-/*
-    lead2_containar
-================================*/
 .lead2_containar{
     display: flex;
     justify-content: space-around;
@@ -237,9 +233,6 @@ body {
     }
  }
 
-/*
-    lead2_contant
-================================*/
 .lead2_content{
     margin:20px 0 70px 98px;
 }
@@ -258,9 +251,6 @@ body {
     }
  }
 
-/*
-    lead2_text
-================================*/
 .lead2_text{
     font-family:"Hiragino Sans";
     src: local(HiraginoSans-W5);
@@ -281,10 +271,6 @@ body {
     }
  }
 
-
-/*
-    lead2_image_bgcolor
-================================*/
 .lead2_image_bgcolor{
     background-color: #C63D33;
     margin: 0 0 0 auto;
@@ -292,22 +278,18 @@ body {
     max-width: 683px;
     max-height: 410px;
 }
-    @media (max-width: 768px) { 
-        .lead2_image_bgcolor{
-            width: 100%;
-            order: 1;
-        }
+@media (max-width: 768px) {
+    .lead2_image_bgcolor{
+        width: 100%;
+        order: 1;
     }
-     @media (max-width: 576px) { 
-        .lead2_image_bgcolor{
-            order: 1;  
-        }
-     }
+}
+ @media (max-width: 576px) {
+    .lead2_image_bgcolor{
+        order: 1;
+    }
+ }
 
-
-/*
-    lead2_image
-================================*/
 .lead2_image{
     max-width: 578px;
 }
@@ -322,10 +304,6 @@ body {
     
     }
  }
-
-/*
-    lead3_text
-================================*/
 
 .lead3_text{
     font-family:"Hiragino Sans";
@@ -343,15 +321,15 @@ body {
         order: 1;
     }
 }
- @media (max-width: 576px) { 
+@media (max-width: 576px) {
     .logo_image{
-        order: 1;  
+        order: 1;
     }
- }
+}
 
-/***********
-  igaken
-************/
+/*
+    club
+================================*/
 
 .club{
     width: 100%;
@@ -387,6 +365,12 @@ body {
     margin: 40px auto 80px;
     text-align: center; 
     line-height: 40px;
+}
+@media (max-width: 768px) {
+    .club-text {
+        width: 100%;
+        margin: 40px auto 80px;
+    }
 }
 
 .club-container{
@@ -480,10 +464,34 @@ body {
     background-color: #C63D33;
     color: #fff;
 }
+
+/*
+    logo
+================================*/
+
+.logo{
+    margin: 80px 0 0 0;
+}
+.logo figure{
+    max-width: 1383px;
+    width: 100%;
+    margin:0 auto;
+}
+
+/*
+    footer
+================================*/
+
 .footer{
     width: 100%;
     height: 142px;
+    padding: 40px 0 80px;
     background-color: #fff;
+}
+@media (max-width: 576px) {
+    .footer{
+        height: 100%;
+    }
 }
 .scroll-button{
     width: 25px;
@@ -507,22 +515,7 @@ body {
     height: 15px;
     margin: 0 auto;
 }
-/***********
-  kakeshita
-************/
 
-.logo{
-    margin: 80px 0 0 0;
-}
-.logo figure{
-    max-width: 1383px;
-    width: 100%;
-    margin:0 auto;
-}
-.footer{
-    padding: 40px 0 80px;
-    background-color: #fff;
-}
 .footer-text{
     margin: 40px 0;
     text-align: center;
