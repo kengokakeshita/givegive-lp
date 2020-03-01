@@ -152,27 +152,6 @@
     }
 }
 
-/*.scroll-down {*/
-    /*width: 117px;*/
-    /*position: absolute;*/
-    /*bottom: -75px;*/
-    /*right: 46%;*/
-    /*font-size: 20px;*/
-    /*text-align: center;*/
-    /*transform: translate(-2%,0);*/
-    /*z-index: 999;*/
-/*}*/
-
-/*@media (max-width: 576px) {*/
-    /*.scroll-down {*/
-        /*width: 58px;*/
-    /*}*/
-/*}*/
-
-/*.scroll-down img{*/
-    /*width: 100%;*/
-/*}*/
-
 @media (max-width: 768px) {
     .scroll-down {
         bottom: -52px;
