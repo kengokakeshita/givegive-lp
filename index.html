@@ -8,8 +8,10 @@
   <link rel="stylesheet" type="text/css" href="./css/reset.css">
   <link rel="stylesheet" type="text/css" href="./css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+  <link rel="icon" href="../favicon.ico">
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script type="text/javascript" src="./part/atsushi/index.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
 <header class="header">
@@ -18,10 +20,10 @@
       <p class="main_lead_text1">ちょっと詳しいから生まれる、<br class="pc_only">大きな喜び。</p>
       <p class="main_lead_text2">誰もが一つは持っている「好き」や「ちょっと詳しい」で、<br class="pc_only">誰かを喜ばせることができる、オフラインサロンです。</p>
     </div>
-    <div class="scroll-down">
-      scroll down<br>
-      <img src="./images/about/yajirushi.png">
-    </div>
+    <a class="scroll-down">Scroll<span></span></a>
+    <!--<div class="scroll-down">-->
+      <!--<img src="./images/about/scroll_button@2x.png">-->
+    <!--</div>-->
   </div><!-- /.main_visual -->
 </header>
 <section class="lead">
@@ -39,32 +41,20 @@
       </div>
       <div class="lead1_content">
         <H1 class="lead_title">
-          仲間に会って、実際に交流するこ<br class="pc_only">
-          とを当たり前に。
+          仲間に会って、実際に交流することを当たり前に。
         </H1>
         <p class="lead1_text">
-          僕たち「Give & Give」は、誰もが、一つは持っている「好き」<br class="pc_only">
-          や「ちょっと詳しい」で、誰かを喜ばせることができる、そんな<br class="pc_only">
-          【オフラインサロン】です。最近よく聞く【オンラインサロン】<br class="pc_only">
-          とは、インターネット上で交流するコミュニティですが、僕たち<br class="pc_only">
-          は仲間に会って実際に交流することを、「当たり前」としている<br class="pc_only">
-          【オフラインサロン】です。<br class="pc_only"><br class="pc_only">
+          僕たち「Give & Give」は、誰もが、一つは持っている「好き」や「ちょっと詳しい」で、誰かを喜ばせることができる、そんな【オフラインサロン】です。最近よく聞く【オンラインサロン】とは、インターネット上で交流するコミュニティですが、僕たちは仲間に会って実際に交流することを、「当たり前」としている【オフラインサロン】です。
         </p>
       </div>
     </div>
     <div class="lead2_containar">
       <div class="lead2_content">
         <H1 class="lead_title">
-          喜びになる瞬間を創造する、まっ<br class="pc_only">
-          たく新しいカタチ。
+          喜びになる瞬間を創造する、まったく新しいカタチ。
         </H1>
         <p class="lead2_text">
-          普段よく聞く【Give & Take】は「何かを与える代わりに、何か<br class="pc_only">
-          をもらうこと」と言われていますが、僕たち「Give & Give」は<br class="pc_only">
-          「もらうこと」を期待するより、自分の「好き」や「ちょっと詳<br class="pc_only">
-          しい」ことで“気付いたら誰かが喜んでいた”そんな日常を創るこ<br class="pc_only">
-          とが大好きです。誰かにとっての“喜び”になる瞬間を一緒に作り<br class="pc_only">
-          合っていくことを、僕たちは大切にしてます。
+          普段よく聞く【Give & Take】は「何かを与える代わりに、何かをもらうこと」と言われていますが、僕たち「Give & Give」は 「もらうこと」を期待するより、自分の「好き」や「ちょっと詳しい」ことで“気付いたら誰かが喜んでいた”そんな日常を創ることが大好きです。誰かにとっての“喜び”になる瞬間を一緒に作り合っていくことを、僕たちは大切にしてます。
         </p>
       </div>
       <div class="lead2_image_bgcolor">
@@ -78,16 +68,20 @@
             </div>
       </div>
     </div>
-    <p class="lead3_text">
+    <p class="lead3_text pc_only">
       教えてもらった人はもちろん嬉しいし、教えた人も自分の「ちょっと詳しい」が役に立って嬉しい。<br class="pc_only">
       そんなステキなやり取りが「当たり前」の場所、それが、僕たち「Give & Give」です。
     </p>
   </div>
 </section><!--lead-->
 <section class="logo">
-  <figure id="#logoArea">
+  <figure id="#logoArea" class="logoArea scroll-reveal">
     <img class="logo_image" src="./images/about/logo/logo@2x.png" alt="">
   </figure>
+  <p class="lead3_text sp_only">
+    教えてもらった人はもちろん嬉しいし、<br class="sp_only">教えた人も自分の「ちょっと詳しい」が<br class="sp_only">役に立って嬉しい。<br>
+    そんなステキなやり取りが<br class="sp_only">「当たり前」の場所、<br class="sp_only">それが、僕たち「Give & Give」です。
+  </p>
 </section>
 <section class="club">
   <div class="club-container">
@@ -100,39 +94,7 @@
       プロフィール設定すれば参加完了です。
     </p>
     <ul class="club-list">
-      <li class="club-item">
-        <div class="club-card">
-          <figure>
-            <img class="club-photo" src="images/about/club/ゲーム部@2x.jpg">
-          </figure>
-          <div class="club-info">
-            <h3>ゲーム部</h3>
-            <p>誰でも知ってるゲームをプロジェクターの大画面で！
-                すぐ仲良くなり、熱くなる会がここにあり！
-            </p>
-          </div>
-        </div>
-        <div class="club-button">
-          <a href="#dummy" class="club-btn">参加する</a>
-        </div>
-      </li>
-      <li class="club-item">
-        <div class="club-card">
-          <figure>
-            <img class="club-photo" src="./images/about/club/靴磨き部@2x.jpg">
-          </figure>
-          <div class="club-info">
-            <h3>遊戯王部</h3>
-            <p>みんな同じデッキで勝負！懐かしのブルーアイズも。
-                デッキ不要、初心者歓迎、デュエルスタンバイ！
-            </p>
-          </div>
-        </div>
-        <div class="club-button">
-          <a href="#dummy" class="club-btn">参加する</a>
-        </div>
-      </li>
-      <li class="club-item">
+      <li class="club-item scroll-reveal">
         <div class="club-card">
           <figure>
             <img class="club-photo" src="images/about/club/フットサル部@2x.jpg">
@@ -145,10 +107,120 @@
           </div>
         </div>
         <div class="club-button">
+          <a href="https://line.me/ti/g2/A8M4uaYlGu6LmjqHPjPSQQ?utm_source=invitation&utm_medium=link_copy&utm_campaign=default" class="club-btn">参加する</a>
+        </div>
+      </li>
+      <li class="club-item scroll-reveal">
+        <div class="club-card">
+          <figure>
+            <img class="club-photo" src="images/about/club/マスクグループ 12@2x.jpg">
+          </figure>
+          <div class="club-info">
+            <h3>ゴルフ部</h3>
+            <p>ゴルフは敷居が高い？打ちっぱなしはもう飽きた？
+                みんなで一緒に始められる・成長できる会です！
+            </p>
+          </div>
+        </div>
+        <div class="club-button">
+          <a href="https://line.me/ti/g2/T_45cFzRREAHegROhIPCkg?utm_source=invitation&utm_medium=link_copy&utm_campaign=default" class="club-btn">参加する</a>
+        </div>
+      </li>
+      <li class="club-item scroll-reveal">
+          <div class="club-card">
+            <figure>
+              <img class="club-photo" src="images/about/club/キャンプ部@2x.jpg">
+            </figure>
+            <div class="club-info">
+              <h3>キャンプ部</h3>
+              <p>【自然×音楽×お酒＝楽園】
+                  都会のストレスから解放。
+                  隔週でBBQもしてるから忙しい人にも！
+              </p>
+            </div>
+          </div>
+          <div class="club-button">
+            <a href="https://line.me/ti/g2/85lvS7JSxsKnidx1yI6rmQ?utm_source=invitation&utm_medium=link_copy&utm_campaign=default" class="club-btn">参加する</a>
+          </div>
+      </li>
+      <li class="club-item scroll-reveal">
+        <div class="club-card">
+          <figure>
+            <img class="club-photo" src="images/about/club/クッキング部@2x.jpg">
+          </figure>
+          <div class="club-info">
+            <h3>クッキング部</h3>
+            <p>料理ができる人って素敵だね。
+                でも作る時間がない？
+                何かを“しながら”作れる料理、学べます。
+            </p>
+          </div>
+        </div>
+        <div class="club-button">
+          <a href="https://line.me/ti/g2/tJtElxT0ZHybg57-iEm5uw?utm_source=invitation&utm_medium=link_copy&utm_campaign=default" class="club-btn">参加する</a>
+        </div>
+      </li>
+      <li class="club-item scroll-reveal">
+        <div class="club-card">
+          <figure>
+            <img class="club-photo" src="images/about/club/WEB部@2x.jpg">
+          </figure>
+          <div class="club-info">
+            <h3>WEB部</h3>
+            <p>「このLP、僕たちが作りました。」
+                プログラミング、デザイナー、ライターが集結する部活
+            </p>
+          </div>
+        </div>
+        <div class="club-button">
+          <a href="https://line.me/ti/g2/hk0vkLOav4VNZw1Jyff_0Q?utm_source=invitation&utm_medium=link_copy&utm_campaign=default" class="club-btn">参加する</a>
+        </div>
+      </li>
+      <li class="club-item scroll-reveal">
+        <div class="club-card">
+          <figure>
+            <img class="club-photo" src="./images/about/club/靴磨き部@2x.jpg">
+          </figure>
+          <div class="club-info">
+            <h3>靴磨き部</h3>
+            <p>オシャレは足元から。大切な靴を美しくしたい人へ。
+                靴の磨き方も学べ、靴磨きの依頼もできる部活です！
+            </p>
+          </div>
+        </div>
+        <div class="club-button">
+          <a href="https://line.me/ti/g2/_SiaEuLVrHyrE7jKl_6cpw?utm_source=invitation&utm_medium=link_copy&utm_campaign=default" class="club-btn">参加する</a>
+        </div>
+      </li>
+      <li class="club-item scroll-reveal">
+        <div class="club-card">
+          <figure>
+            <img class="club-photo" src="images/about/club/グループ 32@2x.jpg">
+          </figure>
+          <div class="club-info">
+            <h3></h3>
+            <p></p>
+          </div>
+        </div>
+        <div class="club-button">
           <a href="#dummy" class="club-btn">参加する</a>
         </div>
       </li>
-      <li class="club-item">
+      <li class="club-item scroll-reveal">
+        <div class="club-card">
+          <figure>
+            <img class="club-photo" src="images/about/club/グループ 32@2x.jpg">
+          </figure>
+          <div class="club-info">
+            <h3></h3>
+            <p></p>
+          </div>
+        </div>
+        <div class="club-button">
+          <a href="#dummy" class="club-btn">参加する</a>
+        </div>
+      </li>
+      <!--<li class="club-item">
         <div class="club-card">
           <figure>
             <img class="club-photo" src="images/about/club/バスケ部@2x.jpg">
@@ -167,67 +239,17 @@
       <li class="club-item">
         <div class="club-card">
           <figure>
-            <img class="club-photo" src="images/about/club/マスクグループ 12@2x.jpg">
+            <img class="club-photo" src="images/about/club/ゲーム部@2x.jpg">
           </figure>
           <div class="club-info">
-            <h3>ゴルフ部</h3>
-            <p>ゴルフは敷居が高い？打ちっぱなしはもう飽きた？
-                みんなで一緒に始められる・成長できる会です！
+            <h3>ゲーム部</h3>
+            <p>誰でも知ってるゲームをプロジェクターの大画面で！
+              すぐ仲良くなり、熱くなる会がここにあり！
             </p>
           </div>
         </div>
         <div class="club-button">
           <a href="#dummy" class="club-btn">参加する</a>
-        </div>
-      </li>
-      <li class="club-item">
-          <div class="club-card">
-            <figure>
-              <img class="club-photo" src="images/about/club/キャンプ部@2x.jpg">
-            </figure>
-            <div class="club-info">
-              <h3>キャンプ部</h3>
-              <p>【自然×音楽×お酒＝楽園】
-                  都会のストレスから解放。
-                  隔週でBBQもしてるから忙しい人にも！
-              </p>
-            </div>
-          </div>
-          <div class="club-button">
-            <a href="#dummy" class="club-btn">参加する</a>
-          </div>
-      </li>
-      <li class="club-item">
-        <div class="club-card">
-          <figure>
-            <img class="club-photo" src="images/about/club/クッキング部@2x.jpg">
-          </figure>
-          <div class="club-info">
-            <h3>クッキング部</h3>
-            <p>料理ができる人って素敵だね。
-                でも作る時間がない？
-                何かを“しながら”作れる料理、学べます。
-            </p>
-          </div>
-        </div>
-        <div class="club-button">
-          <a href="#dummy" class="club-btn">参加する</a>
-        </div>
-      </li>
-      <li class="club-item">
-        <div class="club-card">
-          <figure>
-            <img class="club-photo" src="images/about/club/WEB部@2x.jpg">
-          </figure>
-          <div class="club-info">
-            <h3>WEB部</h3>
-            <p>「このLP、僕たちが作りました。」
-                プログラミング、デザイナー、ライターが集結する部活
-            </p>
-          </div>
-        </div>
-        <div class="club-button">
-          <a href="https://line.me/ti/g2/hk0vkLOav4VNZw1Jyff_0Q?utm_source=invitation&utm_medium=link_copy&utm_campaign=default" class="club-btn">参加する</a>
         </div>
       </li>
       <li class="club-item">
@@ -236,9 +258,9 @@
             <img class="club-photo" src="./images/about/club/靴磨き部@2x.jpg">
           </figure>
           <div class="club-info">
-            <h3>靴磨き部</h3>
-            <p>オシャレは足元から。大切な靴を美しくしたい人へ。
-                靴の磨き方も学べ、靴磨きの依頼もできる部活です！
+            <h3>遊戯王部</h3>
+            <p>みんな同じデッキで勝負！懐かしのブルーアイズも。
+              デッキ不要、初心者歓迎、デュエルスタンバイ！
             </p>
           </div>
         </div>
@@ -259,35 +281,7 @@
         <div class="club-button">
           <a href="#dummy" class="club-btn">参加する</a>
         </div>
-      </li>
-      <li class="club-item">
-        <div class="club-card">
-          <figure>
-            <img class="club-photo" src="images/about/club/グループ 32@2x.jpg">
-          </figure>
-          <div class="club-info">
-            <h3></h3>
-            <p></p>
-          </div>
-        </div>
-        <div class="club-button">
-          <a href="#dummy" class="club-btn">参加する</a>
-        </div>
-      </li>
-      <li class="club-item">
-        <div class="club-card">
-          <figure>
-            <img class="club-photo" src="images/about/club/グループ 32@2x.jpg">
-          </figure>
-          <div class="club-info">
-            <h3></h3>
-            <p></p>
-          </div>
-        </div>
-        <div class="club-button">
-          <a href="#dummy" class="club-btn">参加する</a>
-        </div>
-      </li>
+      </li>-->
     </ul>
   </div>
 </section>
@@ -299,47 +293,25 @@
     </a>
   </div>
   <div class="footer-text">
-    <h3>Copyright (C) 2019 Give&Give Co.,LTD. All Rights Reserved.</h3>
+    <h3>Copyright (C) 2019 Give&Give Co.,LTD. <br class="sp_only">All Rights Reserved.</h3>
   </div>
 
 </section>
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
-<script type="text/javascript" src="snowfall.jquery.js"></script>
-<script type="text/javascript">
-    $(document).ready(function(){
-        $('#logoArea').snowfall({
-            flakeCount :20, // 枚数
-            flakeIndex : 50, // z-index
-            maxSpeed : 3, // 最大速度
-            minSpeed : 0.6, // 最小速度
-            maxSize  : 26, // 最大サイズ
-            minSize  : 5, // 最小サイズ
-            image : [
-                'images/logo/square_01@2x.png',
-                'images/logo/square_02@2x.png',
-                'images/logo/square_03@2x.png',
-                'images/logo/square_04@2x.png',
-                'images/logo/square_05@2x.png',
-                'images/logo/square_06@2x.png',
-                'images/logo/square_07@2x.png',
-                'images/logo/triangle_01@2x.png',
-                'images/logo/triangle_02@2x.png',
-                'images/logo/triangle_03@2x.png',
-                'images/logo/triangle_04@2x.png',
-                'images/logo/triangle_05@2x.png',
-                'images/logo/triangle_06@2x.png',
-                'images/logo/triangle_07@2x.png',
-                'images/logo/triangle_08@2x.png',
-                'images/logo/triangle_09@2x.png',
-                'images/logo/triangle_10@2x.png',
-                'images/logo/triangle_11@2x.png',
-                'images/logo/triangle_12@2x.png',
-                'images/logo/triangle_13@2x.png'
-            ]
-        });
-    });
-</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
-<script src="./part/atsushi/index.js"></script>
+<script type="text/javascript" src="./js/index.js"></script>
+<script>
+    // ScrollReveal().reveal('.scroll-reveal')
+
+    let ScrollrevealFade = {
+        origin: 'left',
+        // distance: '0px',//移動範囲
+        // scale: 1,//拡大表示（１で横スクロールが始まる）
+        // rotate: { x: 0, y: 0, z: 0 }, //xは縦回転、yは横回転、zは傾き（風車みたいな感じ）
+        duration: 2000, //アニメーションの速度
+        // delay :200 //要素が表示するまでの待機時間（ディレイ）
+    };
+    ScrollReveal().reveal('.scroll-reveal', ScrollrevealFade, 100);
+</script>
+
 </body>
 </html>

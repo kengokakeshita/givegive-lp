@@ -101,25 +101,82 @@
 }
 
 .scroll-down {
+    width: 117px;
     position: absolute;
-    bottom: -85px;
-    left: 45%;
-    right: 45%;
-    font-size: 20px;
-    text-align: center;
-    transform: translate(-2%,0);
+    bottom: -108px;
+    right: 46%;
     z-index: 999;
+    padding-bottom: 70px;
+    text-align: center;
+    letter-spacing: 0.2em;
 }
+.scroll-down span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb 1.5s infinite;
+    animation: sdb 1.5s infinite;
+    box-sizing: border-box;
+}
+@-webkit-keyframes sdb {
+    0% {
+        -webkit-transform: rotate(-45deg) translate(0, 0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+        opacity: 0;
+    }
+}
+@keyframes sdb {
+    0% {
+        transform: rotate(-45deg) translate(0, 0);
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: rotate(-45deg) translate(-20px, 20px);
+        opacity: 0;
+    }
+}
+
+/*.scroll-down {*/
+    /*width: 117px;*/
+    /*position: absolute;*/
+    /*bottom: -75px;*/
+    /*right: 46%;*/
+    /*font-size: 20px;*/
+    /*text-align: center;*/
+    /*transform: translate(-2%,0);*/
+    /*z-index: 999;*/
+/*}*/
+
+/*@media (max-width: 576px) {*/
+    /*.scroll-down {*/
+        /*width: 58px;*/
+    /*}*/
+/*}*/
+
+/*.scroll-down img{*/
+    /*width: 100%;*/
+/*}*/
 
 @media (max-width: 768px) {
     .scroll-down {
-        bottom: -32px;
-        left: 41%;
-        right: auto;
-        font-size: 12px;
-        text-align: center;
-        transform: translate(-2%,0);
-        z-index: 999;
+        bottom: -52px;
+        right: 35%;
     }
 }
     
@@ -220,17 +277,20 @@
  }
 
 .lead1_content{
+    width: 465px;
     margin:20px 98px 70px 0;
 }
 @media (max-width: 768px) { 
     .lead1_content{
         display: block;
+        width: 90%;
         margin: 20px 0px 70px 95px;
     }
  }
  @media (max-width: 576px) { 
     .lead1_content{
         display: block;
+        width: 90%;
         margin: 20px 20px 70px;
     }
  }
@@ -274,6 +334,7 @@
  }
 
 .lead2_content{
+    width: 465px;
     margin:20px 0 70px 98px;
 }
 @media (max-width: 768px) { 
@@ -339,11 +400,11 @@
         
     }
 }
- @media (max-width: 576px) { 
+@media (max-width: 576px) {
     .lead2_image{
-    
+
     }
- }
+}
 
 .lead3_text{
     font-family:"Hiragino Sans";
@@ -353,6 +414,13 @@
     font-size: 16px !important;
     text-align:  center ;
     margin: 80px 0 0 0;
+}
+
+@media (max-width: 576px) {
+    .lead3_text{
+        width: 90%;
+        margin: 20px auto 0;
+    }
 }
 
 @media (max-width: 768px) { 
@@ -365,6 +433,30 @@
     .logo_image{
         order: 1;
     }
+}
+
+/*
+    logo
+================================*/
+
+.logo{
+    margin: 80px 0 0 0;
+}
+
+@media (max-width: 576px) {
+    .logo{
+        margin: 20px 0 0 0;
+    }
+}
+
+.logoArea{
+    max-width: 1383px;
+    width: 100%;
+    margin:0 auto;
+}
+
+.logoArea img{
+    width: 100%;
 }
 
 /*
@@ -400,7 +492,6 @@
 .club-text {
     color: #fff;
     width: 718px;
-    height: 56px;
     font-size: 16px;
     margin: 40px auto 80px;
     text-align: center; 
@@ -409,7 +500,8 @@
 @media (max-width: 768px) {
     .club-text {
         width: 100%;
-        margin: 40px auto 80px;
+        margin: 40px auto;
+        text-align: left;
     }
 }
 
@@ -444,19 +536,33 @@
 }
 @media (max-width: 768px) { 
     .club-list{
-        width: 80%;
+        width: 280px;
         margin: 0 auto;
     }
 }
- @media (max-width: 576px) { 
+@media (max-width: 576px) {
     .club-list{
-        width: 80%;
+        width: 280px;
         margin: 0 auto;
     }
- }
+}
 .club-item{
     width: 280px;
 }
+@media (max-width: 768px) {
+    .club-item{
+
+    }
+}
+@media (max-width: 576px) {
+    .club-item{
+        margin: 60px 0 0 0;
+    }
+    .club-item:nth-of-type(1){
+        margin: 0;
+    }
+}
+
 .club-item:nth-of-type(n+5){
     margin: 56px 0 0 0;
 }
@@ -506,19 +612,6 @@
 }
 
 /*
-    logo
-================================*/
-
-.logo{
-    margin: 80px 0 0 0;
-}
-.logo figure{
-    max-width: 1383px;
-    width: 100%;
-    margin:0 auto;
-}
-
-/*
     footer
 ================================*/
 
@@ -559,6 +652,7 @@
 .footer-text{
     margin: 40px 0;
     text-align: center;
+    line-height: 1.2;
 }
 .button_top{
     width: 24px;
